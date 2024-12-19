@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Population
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/population_db
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
